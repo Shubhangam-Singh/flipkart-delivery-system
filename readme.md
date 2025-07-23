@@ -108,7 +108,6 @@ Request JSON:
 
 ---
 
-```markdown
 ## 🛠️ Setup Instructions
 
 1. **Clone the repository**  
@@ -205,4 +204,3 @@ Feel free to ⭐ this repo or raise an issue/PR to contribute!
 This project is open-source and available under the **MIT License**.
 ```
 
----
