@@ -106,19 +106,18 @@ Request JSON:
 }
 ```
 
-
 🛠️ Setup Instructions
 
 1. Clone the repo
 git clone https://github.com/shubhangam-singh
-// /flipkart-delivery-system.git
+flipkart-delivery-system.git
 cd flipkart-delivery-system
 
 2. Create and activate virtual environment
 python -m venv venv
-# Windows
+for Windows
 venv\Scripts\activate
-# macOS/Linux
+for macOS/Linux
 source venv/bin/activate
 
 3. Install dependencies
