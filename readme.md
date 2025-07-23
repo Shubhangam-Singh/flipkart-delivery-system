@@ -106,68 +106,103 @@ Request JSON:
 }
 ```
 
-🛠️ Setup Instructions
-Clone the repository
-git clone https://github.com/shubhangam-singh/flipkart-delivery-system.git
-cd flipkart-delivery-system
+---
 
-Create & activate a virtual environment
-python -m venv venv
+```markdown
+## 🛠️ Setup Instructions
 
-Windows: venv\Scripts\activate
+1. **Clone the repository**  
+   ```bash
+   git clone https://github.com/shubhangam-singh/flipkart-delivery-system.git
+   cd flipkart-delivery-system
+   ```
 
-macOS/Linux: source venv/bin/activate
+2. **Create & activate a virtual environment**  
+   ```bash
+   python -m venv venv
+   ```
+   - **Windows**:  
+     ```bash
+     venv\Scripts\activate
+     ```
+   - **macOS/Linux**:  
+     ```bash
+     source venv/bin/activate
+     ```
 
-Install dependencies
-pip install -r requirements.txt
+3. **Install dependencies**  
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-Run the server
-python main.py
+4. **Run the server**  
+   ```bash
+   python main.py
+   ```
 
-🧪 Testing the API
-Run the automated test script to simulate a full workflow:
+---
+
+## 🧪 Testing the API
+
+Run the test script to simulate a full workflow:
+```bash
 python test_api.py
+```
 
-This will:
+This will:  
+- 📡 Ping the `/health` endpoint  
+- 📬 Create a new order  
+- 🚚 Assign the best available partner  
+- 📋 Fetch and display order details  
 
-📡 Ping the /health endpoint
+---
 
-📬 Create a new order
+## 🧼 Sample Output
 
-🚚 Assign the best available partner
-
-📋 Fetch and display order details
-
-🧼 Sample Output
+```
 🎯 Running Complete Test Scenario
 🔍 Testing Health Check...
 📦 Testing Create Order...
 🚚 Testing Assign Order...
 📋 Testing Get Order...
 ✅ All tests completed successfully!
+```
 
-📂 Folder Structure
+---
+
+## 📂 Folder Structure
+
+```
 flipkart-delivery-system/
-├── main.py # Flask backend logic
-├── test_api.py # Automated API test script
-├── requirements.txt # Python package dependencies
-├── README.md # Project overview & documentation
-└── venv/ # Virtual environment (excluded via .gitignore)
+├── main.py           # Flask backend logic
+├── test_api.py       # Automated API test script
+├── requirements.txt  # Python package dependencies
+├── README.md         # Project overview and documentation
+└── venv/             # Virtual environment (excluded from Git)
+```
 
-🌟 Future Enhancements
-Persist data with SQLite or PostgreSQL
+---
 
-Add authentication for admin endpoints
+## 🌟 Future Enhancements
 
-Dockerize the application for easy deployment
+- Switch to **SQLite** or **PostgreSQL** for persistent storage  
+- Add **authentication** for admin endpoints  
+- **Dockerize** the app for deployment  
+- Add a **frontend dashboard** for partner/order tracking  
+- Extend partner logic (geo-distance, availability slots, etc.)
 
-Build a frontend dashboard for real-time tracking
+---
 
-Extend partner selection logic (e.g., geo‑distance, time slots)
+## 👨‍💻 Author
 
-👨‍💻 Author
-Made with ❤️ by Shubhangam Singh
-Feel free to ⭐ the repo or open an issue/PR to contribute!
+Made with ❤️ by **Shubhangam**  
+Feel free to ⭐ this repo or raise an issue/PR to contribute!
 
-📝 License
-This project is open-source under the MIT License.
+---
+
+## 📝 License
+
+This project is open-source and available under the **MIT License**.
+```
+
+---
