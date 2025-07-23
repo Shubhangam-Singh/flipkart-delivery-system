@@ -1,4 +1,4 @@
-# 📦 Flipkart Hyperlocal Delivery Assignment System
+# 📦 Hyperlocal Delivery Assignment System
 
 A lightweight RESTful backend service that automates the assignment of Flipkart Quick orders to the most optimal delivery partner — in real-time, using a smart priority scoring system.
 
@@ -6,7 +6,7 @@ A lightweight RESTful backend service that automates the assignment of Flipkart 
 
 ## 🚀 Project Overview
 
-Flipkart Quick promises grocery and essentials delivery within **90 minutes**. As demand increases, manually assigning orders to delivery partners creates delays and inefficiencies.
+LogiTrack Quick promises grocery and essentials delivery within **90 minutes**. As demand increases, manually assigning orders to delivery partners creates delays and inefficiencies.
 
 This project solves that by offering a **smart assignment engine** using Flask, where:
 
