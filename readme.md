@@ -107,38 +107,38 @@ Request JSON:
 ```
 
 🛠️ Setup Instructions
-
-1. Clone the repo
-git clone https://github.com/shubhangam-singh
-flipkart-delivery-system.git
+Clone the repository
+git clone https://github.com/shubhangam-singh/flipkart-delivery-system.git
 cd flipkart-delivery-system
 
-2. Create and activate virtual environment
+Create & activate a virtual environment
 python -m venv venv
-for Windows
-venv\Scripts\activate
-for macOS/Linux
-source venv/bin/activate
 
-3. Install dependencies
+Windows: venv\Scripts\activate
+
+macOS/Linux: source venv/bin/activate
+
+Install dependencies
 pip install -r requirements.txt
 
-4. Run the server
+Run the server
 python main.py
 
 🧪 Testing the API
-Run the included test script to simulate a complete workflow:
+Run the automated test script to simulate a full workflow:
 python test_api.py
 
 This will:
 
-. Ping the health endpoint
-. Create an order
-. Assign a partner
-. Fetch order and partner details
+📡 Ping the /health endpoint
+
+📬 Create a new order
+
+🚚 Assign the best available partner
+
+📋 Fetch and display order details
 
 🧼 Sample Output
-
 🎯 Running Complete Test Scenario
 🔍 Testing Health Check...
 📦 Testing Create Order...
@@ -146,29 +146,28 @@ This will:
 📋 Testing Get Order...
 ✅ All tests completed successfully!
 
-
 📂 Folder Structure
 flipkart-delivery-system/
-├── main.py           # Flask backend logic
-├── test_api.py       # Automated API test script
-├── requirements.txt  # Python package dependencies
-├── readme.md         # Project overview and documentation
-└── venv/             # Virtual environment (excluded from Git)
-
+├── main.py # Flask backend logic
+├── test_api.py # Automated API test script
+├── requirements.txt # Python package dependencies
+├── README.md # Project overview & documentation
+└── venv/ # Virtual environment (excluded via .gitignore)
 
 🌟 Future Enhancements
-. Switch to SQLite or PostgreSQL for persistent storage
-. Add authentication for admin endpoints
-. Dockerize for deployment
-. Add frontend dashboard for partner/order tracking
-. Extend partner logic (geo-distance, availability slots, etc.)
+Persist data with SQLite or PostgreSQL
+
+Add authentication for admin endpoints
+
+Dockerize the application for easy deployment
+
+Build a frontend dashboard for real-time tracking
+
+Extend partner selection logic (e.g., geo‑distance, time slots)
 
 👨‍💻 Author
-Made with ❤️ by Shubhangam
-Feel free to ⭐ this repo or raise an issue/PR if you'd like to contribute!
+Made with ❤️ by Shubhangam Singh
+Feel free to ⭐ the repo or open an issue/PR to contribute!
 
 📝 License
-This project is open-source and free to use under the MIT License.
-
----
-```
+This project is open-source under the MIT License.
