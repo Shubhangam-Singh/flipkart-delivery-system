@@ -104,8 +104,10 @@ Request JSON:
   "status": "AVAILABLE",
   "capacity": 3
 }
+```
 
-🛠 Setup Instructions
+
+🛠️ Setup Instructions
 
 1. Clone the repo
 git clone https://github.com/shubhangam-singh
